@@ -42,12 +42,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 128
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -116,7 +116,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Zombie-LPC-Generator_0
+      name: Zombie_0
       rect:
         serializedVersion: 2
         x: 17
@@ -130,14 +130,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 997a69a61a1756e45842fcd90b4d3d69
-      internalID: 1413570797
+      spriteID: 41a0da0dcb1699e488dd51a0c54841da
+      internalID: 1861207756
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Zombie-LPC-Generator_1
+      name: Zombie_1
       rect:
         serializedVersion: 2
         x: 82
@@ -151,14 +151,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8589e1baf22ff514083d3bdb3494b297
-      internalID: 1205192108
+      spriteID: 15497bf3cf983be44931e8f76f8fd2de
+      internalID: 1344041939
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Zombie-LPC-Generator_2
+      name: Zombie_2
       rect:
         serializedVersion: 2
         x: 146
@@ -172,14 +172,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e08dd23bb8e16af4ca1a8666c11b9ed5
-      internalID: -150304979
+      spriteID: 9b7a0ff33d42eb2458342529e7e51150
+      internalID: -175579135
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Zombie-LPC-Generator_3
+      name: Zombie_3
       rect:
         serializedVersion: 2
         x: 206
@@ -193,14 +193,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e50086be04fce46439d7e10fe54022d1
-      internalID: -1418961817
+      spriteID: 8aeea2fcf596c554faf024324dc56a38
+      internalID: -51838432
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Zombie-LPC-Generator_4
+      name: Zombie_4
       rect:
         serializedVersion: 2
         x: 263
@@ -214,14 +214,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: caf028ba28d190543b127f4c5e861796
-      internalID: 636218612
+      spriteID: 64bb453a244884e44934252cb62d8d6f
+      internalID: 1636495427
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Zombie-LPC-Generator_5
+      name: Zombie_5
       rect:
         serializedVersion: 2
         x: 328
@@ -235,14 +235,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dcf0ab830a7c19b44953bcd1eae81337
-      internalID: -1881387005
+      spriteID: 2d1e998c5a0f0d145b72fdfdd2f3c7f7
+      internalID: 595944531
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Zombie-LPC-Generator_6
+      name: Zombie_6
       rect:
         serializedVersion: 2
         x: 398
@@ -256,14 +256,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8c9590652a2e11a4c82209dbb951522a
-      internalID: -1840802643
+      spriteID: 0a393bb39b0bab945af87d1161b450c6
+      internalID: -1895492234
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Zombie-LPC-Generator_7
+      name: Zombie_7
       rect:
         serializedVersion: 2
         x: 23
@@ -277,14 +277,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b7634f190b6524f40a22491dbd678dc7
-      internalID: 2101234140
+      spriteID: 1fbe66ebc4d26154d8c5ff19e7de5894
+      internalID: -1506433778
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Zombie-LPC-Generator_8
+      name: Zombie_8
       rect:
         serializedVersion: 2
         x: 85
@@ -298,14 +298,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e60f27e6ad23ab847a614b4d50a3e0d2
-      internalID: 2076530618
+      spriteID: 205febafc8b0e47489cbdcfde8fa72a5
+      internalID: -465048640
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Zombie-LPC-Generator_9
+      name: Zombie_9
       rect:
         serializedVersion: 2
         x: 150
@@ -319,14 +319,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c89a73e91f5ffca4baffedb7a967fa27
-      internalID: -920991968
+      spriteID: 04e1631a7d038fd409c638841e9d91c2
+      internalID: -1258680034
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Zombie-LPC-Generator_10
+      name: Zombie_10
       rect:
         serializedVersion: 2
         x: 212
@@ -340,14 +340,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7666781d86c72154393277a122980990
-      internalID: 1120448630
+      spriteID: 9e6e8a540e564ed489ea6b382c3d7f47
+      internalID: -1908357033
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Zombie-LPC-Generator_11
+      name: Zombie_11
       rect:
         serializedVersion: 2
         x: 274
@@ -361,14 +361,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c8aa30c04e7568f40864da8cf5c56971
-      internalID: 613976935
+      spriteID: c20752b6890575147b505588567580ff
+      internalID: 1647123554
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Zombie-LPC-Generator_12
+      name: Zombie_12
       rect:
         serializedVersion: 2
         x: 338
@@ -382,14 +382,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b7d20aeffa99efd4290f653f554a3f5f
-      internalID: -1687594993
+      spriteID: e7d6721b3d44eb04da47de638815fc85
+      internalID: -120824092
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Zombie-LPC-Generator_13
+      name: Zombie_13
       rect:
         serializedVersion: 2
         x: 404
@@ -403,14 +403,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 38d998a9b677f224f89a2d1e42bcdce4
-      internalID: -575591789
+      spriteID: a9f9b667a81d3ce4988976d5bf2a5a38
+      internalID: 769054534
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Zombie-LPC-Generator_14
+      name: Zombie_14
       rect:
         serializedVersion: 2
         x: 17
@@ -424,14 +424,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 18b341fa3d7bb2c4ebbc383310eae3fa
-      internalID: -910505575
+      spriteID: 5cd6b71344d676b4285ca868822574c1
+      internalID: 255056783
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Zombie-LPC-Generator_15
+      name: Zombie_15
       rect:
         serializedVersion: 2
         x: 81
@@ -445,14 +445,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3eeb33c2a9ecfb64b8ba5bf796d7541e
-      internalID: -479651293
+      spriteID: ee642bf5035babd46a1609c4bb4ac864
+      internalID: 827214867
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Zombie-LPC-Generator_16
+      name: Zombie_16
       rect:
         serializedVersion: 2
         x: 146
@@ -466,14 +466,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c8055d2f8d540af46a9cb94287454855
-      internalID: -1283691182
+      spriteID: 274469e47ff9a634eb81b09fcd3cc497
+      internalID: 156958375
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Zombie-LPC-Generator_17
+      name: Zombie_17
       rect:
         serializedVersion: 2
         x: 206
@@ -487,14 +487,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b9a4a48dfb380874fa582884ce8c8fc9
-      internalID: -1319423249
+      spriteID: 650a99b174581d54ca1d7bf9f17608a8
+      internalID: 695610058
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Zombie-LPC-Generator_18
+      name: Zombie_18
       rect:
         serializedVersion: 2
         x: 263
@@ -508,14 +508,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 01f4e48e602063d49bdc0bab6f446d8d
-      internalID: 188390477
+      spriteID: d15b472a6fbed724187397afd6255365
+      internalID: -669911881
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Zombie-LPC-Generator_19
+      name: Zombie_19
       rect:
         serializedVersion: 2
         x: 328
@@ -529,14 +529,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 504e65cc78a277943803e8297cf3888f
-      internalID: -2063816978
+      spriteID: 717af3720fa703c49a93160417f9357b
+      internalID: 554126671
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Zombie-LPC-Generator_20
+      name: Zombie_20
       rect:
         serializedVersion: 2
         x: 399
@@ -550,14 +550,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 955a3b23b2ef5ce4bb82267542a5083c
-      internalID: -1014610515
+      spriteID: 214bbc74a7ab58b4e98982fcc4f29067
+      internalID: 109951034
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Zombie-LPC-Generator_21
+      name: Zombie_21
       rect:
         serializedVersion: 2
         x: 21
@@ -571,14 +571,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3701852263323414b92531626ee7141a
-      internalID: 1269277848
+      spriteID: edee455c2a7d1784491e9a8534a6e0da
+      internalID: -52260541
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Zombie-LPC-Generator_22
+      name: Zombie_22
       rect:
         serializedVersion: 2
         x: 84
@@ -592,14 +592,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 03bca48ade2258949b12f29a362c0364
-      internalID: -795860317
+      spriteID: c12500ee8201fa840824a321e9437aa3
+      internalID: 1194047226
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Zombie-LPC-Generator_23
+      name: Zombie_23
       rect:
         serializedVersion: 2
         x: 149
@@ -613,14 +613,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8e220a8cc14734442bbb252c94b7eaf5
-      internalID: 717327287
+      spriteID: 1559366d56e914b44ae5ecfe46fb771b
+      internalID: -1906660248
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Zombie-LPC-Generator_24
+      name: Zombie_24
       rect:
         serializedVersion: 2
         x: 210
@@ -634,14 +634,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d6cde6c93d61f25409b034d698a863c2
-      internalID: -4040429
+      spriteID: d22777f605bbb7944a1fdb24148acb30
+      internalID: -1272048468
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Zombie-LPC-Generator_25
+      name: Zombie_25
       rect:
         serializedVersion: 2
         x: 269
@@ -655,14 +655,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 06c4017ab00319048aa98830749b6e55
-      internalID: -1920381988
+      spriteID: cfdd880b830b7044f804e95dfca27aee
+      internalID: -193957984
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Zombie-LPC-Generator_26
+      name: Zombie_26
       rect:
         serializedVersion: 2
         x: 333
@@ -676,14 +676,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 68730d44bfc99414fbc7845409786e35
-      internalID: -693629018
+      spriteID: d6a8b3e702d7caa4dabd99256bc56e34
+      internalID: -1910687634
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Zombie-LPC-Generator_27
+      name: Zombie_27
       rect:
         serializedVersion: 2
         x: 400
@@ -697,14 +697,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 402d36b381eb8b84e8b194bc638f4dfb
-      internalID: -828704452
+      spriteID: e787d3f9577b61e4ea674cc5871d28b8
+      internalID: 1550656253
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Zombie-LPC-Generator_28
+      name: Zombie_28
       rect:
         serializedVersion: 2
         x: 17
@@ -718,14 +718,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cf348c1ad0c0e7d40981c6ff7a1ef5bc
-      internalID: 259667742
+      spriteID: 392fa6dd4447a9c46ba140bf35de917d
+      internalID: -1474634114
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Zombie-LPC-Generator_29
+      name: Zombie_29
       rect:
         serializedVersion: 2
         x: 84
@@ -739,14 +739,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b6289255e00d37a469efd48421f8d523
-      internalID: -1474181971
+      spriteID: ad04eb8d805068048aab6427f997d7db
+      internalID: 181903661
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Zombie-LPC-Generator_30
+      name: Zombie_30
       rect:
         serializedVersion: 2
         x: 150
@@ -760,14 +760,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4cffcf4e59a416045b552852d0d79dee
-      internalID: -196337419
+      spriteID: 1aedb805846da264fafe6c9c67b41268
+      internalID: 889228352
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Zombie-LPC-Generator_31
+      name: Zombie_31
       rect:
         serializedVersion: 2
         x: 214
@@ -781,14 +781,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f728fc966eb602443bfa77b1d138a825
-      internalID: -187917913
+      spriteID: ce40dada140ff164ea019334720d56f1
+      internalID: -897903124
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Zombie-LPC-Generator_32
+      name: Zombie_32
       rect:
         serializedVersion: 2
         x: 279
@@ -802,14 +802,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1299f28e46f69eb418814286260623b5
-      internalID: -43898042
+      spriteID: 80782baa9003de44d89168e48cce0854
+      internalID: -86704216
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Zombie-LPC-Generator_33
+      name: Zombie_33
       rect:
         serializedVersion: 2
         x: 343
@@ -823,14 +823,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d78b514bc17b5f144b6baad686256ec5
-      internalID: 130522457
+      spriteID: 13eefc957cba05047906381a011e2101
+      internalID: -1633076559
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Zombie-LPC-Generator_34
+      name: Zombie_34
       rect:
         serializedVersion: 2
         x: 407
@@ -844,14 +844,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 10e875d3da7110e4f938900029932bf1
-      internalID: 378516001
+      spriteID: 6ec4473ae98af55418b1c9057debd1c0
+      internalID: -720186262
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Zombie-LPC-Generator_35
+      name: Zombie_35
       rect:
         serializedVersion: 2
         x: 470
@@ -865,14 +865,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e7f195da44852ca458f6ba5e73fa8303
-      internalID: -1831039612
+      spriteID: 9f71284d27a9d474a8967840ce65ad5e
+      internalID: -425838463
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Zombie-LPC-Generator_36
+      name: Zombie_36
       rect:
         serializedVersion: 2
         x: 23
@@ -886,14 +886,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 10c1a3fe7a489a341bbbaaac1a9f4082
-      internalID: 147150166
+      spriteID: 023ed56b0dbfba54bb12c7d351ba0c81
+      internalID: 571730202
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Zombie-LPC-Generator_37
+      name: Zombie_37
       rect:
         serializedVersion: 2
         x: 83
@@ -907,14 +907,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9859ca268071153429845e3d0e565e65
-      internalID: -620347729
+      spriteID: c0c2cdd1d3f3f5b499723e86b3f4db56
+      internalID: -1032330593
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Zombie-LPC-Generator_38
+      name: Zombie_38
       rect:
         serializedVersion: 2
         x: 147
@@ -928,14 +928,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bd72a50c77d001d40a004d03fe417712
-      internalID: -1284963417
+      spriteID: 62937a739d3e01b42a5c260c0930d1d1
+      internalID: -1711243579
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Zombie-LPC-Generator_39
+      name: Zombie_39
       rect:
         serializedVersion: 2
         x: 214
@@ -949,14 +949,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 47b02c51e2f1c324c8f996987afb3f79
-      internalID: 640350161
+      spriteID: 2698d5d0a96a9704aa0f08945ef83bac
+      internalID: 303632167
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Zombie-LPC-Generator_40
+      name: Zombie_40
       rect:
         serializedVersion: 2
         x: 271
@@ -970,14 +970,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9cc467905402db74fb94194a9d97e126
-      internalID: -1784885734
+      spriteID: 66f8266714e110346b116724fc5bd768
+      internalID: 999598302
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Zombie-LPC-Generator_41
+      name: Zombie_41
       rect:
         serializedVersion: 2
         x: 332
@@ -991,14 +991,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 57290dcd9036bd648901bce702e30799
-      internalID: -993207648
+      spriteID: 65967b29150db60438e547846f65e920
+      internalID: 619188790
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Zombie-LPC-Generator_42
+      name: Zombie_42
       rect:
         serializedVersion: 2
         x: 399
@@ -1012,14 +1012,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 79ce24dd95461534884cffccbe595773
-      internalID: 1836648881
+      spriteID: cfd8a5aecce7b2d42a0f1cba694921e6
+      internalID: -2083549012
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Zombie-LPC-Generator_43
+      name: Zombie_43
       rect:
         serializedVersion: 2
         x: 470
@@ -1033,14 +1033,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a9540b0200dc1e44e9e9f5d52eb7d882
-      internalID: 1973667398
+      spriteID: 280deff927dcb334fbfe65961fbde68d
+      internalID: 62535546
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Zombie-LPC-Generator_44
+      name: Zombie_44
       rect:
         serializedVersion: 2
         x: 17
@@ -1054,14 +1054,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e223ba6b86b98c042b18ad086a113b29
-      internalID: -791298782
+      spriteID: a7dbc9312b8e2c04aa09e3c8a23b1e42
+      internalID: 53755400
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Zombie-LPC-Generator_45
+      name: Zombie_45
       rect:
         serializedVersion: 2
         x: 83
@@ -1075,14 +1075,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 87ba612a7730cc4468921c82aa3d0a1e
-      internalID: -1656608437
+      spriteID: a85c501d21278ad47a5fa5c4645fa239
+      internalID: -606527027
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Zombie-LPC-Generator_46
+      name: Zombie_46
       rect:
         serializedVersion: 2
         x: 149
@@ -1096,14 +1096,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 21764ba44c60ecf4583f9e9420390477
-      internalID: 210995253
+      spriteID: ed6b7cce4e69fca4589308e131e164b3
+      internalID: 1976114208
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Zombie-LPC-Generator_47
+      name: Zombie_47
       rect:
         serializedVersion: 2
         x: 210
@@ -1117,14 +1117,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d164a459d43bf0444a706eff006cfca6
-      internalID: -2064903296
+      spriteID: 3566700e16bc3844faff5bead091f6e4
+      internalID: 1992245040
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Zombie-LPC-Generator_48
+      name: Zombie_48
       rect:
         serializedVersion: 2
         x: 277
@@ -1138,14 +1138,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: aadf23912f988f64eae6b7894cd7c6ee
-      internalID: -1365498782
+      spriteID: 30e6f4e588c13e34989c6fd55802f4e8
+      internalID: 1661294567
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Zombie-LPC-Generator_49
+      name: Zombie_49
       rect:
         serializedVersion: 2
         x: 341
@@ -1159,14 +1159,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b5ecb0aaefe050f47b3f6ff0cc57acb5
-      internalID: -2110849954
+      spriteID: 93d568d07e505694b96420b1cb9752cc
+      internalID: 1189701937
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Zombie-LPC-Generator_50
+      name: Zombie_50
       rect:
         serializedVersion: 2
         x: 405
@@ -1180,14 +1180,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5569260429ef349419078f5aed4c78e0
-      internalID: 797621280
+      spriteID: 4c0e25d4186628f48ac84ac78c5b58f6
+      internalID: 541502285
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Zombie-LPC-Generator_51
+      name: Zombie_51
       rect:
         serializedVersion: 2
         x: 466
@@ -1201,14 +1201,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 270cb24b96518534ca4aeba9c3485e68
-      internalID: -340226349
+      spriteID: 8bb2dd2477863da44830b8fa13ceb45b
+      internalID: 1544740490
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Zombie-LPC-Generator_52
+      name: Zombie_52
       rect:
         serializedVersion: 2
         x: 21
@@ -1222,14 +1222,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3b2110307f747ed45a2dfa2c0ceb29f1
-      internalID: 931016641
+      spriteID: 7294dd15bc989584996207261c9bc383
+      internalID: 106455316
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Zombie-LPC-Generator_53
+      name: Zombie_53
       rect:
         serializedVersion: 2
         x: 84
@@ -1243,14 +1243,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 489e72710f4270441a1d8ac407249b23
-      internalID: -1844327647
+      spriteID: 1659b6385c537b7419a63b1fe6f1ce93
+      internalID: -1847507541
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Zombie-LPC-Generator_54
+      name: Zombie_54
       rect:
         serializedVersion: 2
         x: 146
@@ -1264,14 +1264,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5e6a1010880893b4c902943b1cfb0d6f
-      internalID: 1668039860
+      spriteID: 058a25ea460cb9f4cba2d6885c59b887
+      internalID: 1389077693
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Zombie-LPC-Generator_55
+      name: Zombie_55
       rect:
         serializedVersion: 2
         x: 209
@@ -1285,14 +1285,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0e14ff87e63a9c842bf2b2ace60b7892
-      internalID: 443819354
+      spriteID: e7812f4a8ce37bc48ae4dd8981402fd1
+      internalID: -1966635138
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Zombie-LPC-Generator_56
+      name: Zombie_56
       rect:
         serializedVersion: 2
         x: 278
@@ -1306,14 +1306,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f34bfb32e1b234145a8fd3046ffedd28
-      internalID: -1097707510
+      spriteID: b9be339764711d449baa07b4b8da8522
+      internalID: 793999815
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Zombie-LPC-Generator_57
+      name: Zombie_57
       rect:
         serializedVersion: 2
         x: 342
@@ -1327,14 +1327,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cd563e78612fc9049a692af095ceef1a
-      internalID: 864583750
+      spriteID: dcb8531beea32224980e5f9129abd86a
+      internalID: -1163166280
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Zombie-LPC-Generator_58
+      name: Zombie_58
       rect:
         serializedVersion: 2
         x: 406
@@ -1348,14 +1348,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a73a93bd63f58244d98115c36b8190c7
-      internalID: 177407907
+      spriteID: 8a2bd52eb4bde184390134bce7fa2f6e
+      internalID: 1847013914
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Zombie-LPC-Generator_59
+      name: Zombie_59
       rect:
         serializedVersion: 2
         x: 465
@@ -1369,14 +1369,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bb20bb7445bbdb1489910963fcdbfa00
-      internalID: -1969826300
+      spriteID: 24bedb0f93d45cc408a2098ce2f4bafc
+      internalID: 1172408053
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Zombie-LPC-Generator_60
+      name: Zombie_60
       rect:
         serializedVersion: 2
         x: 17
@@ -1390,14 +1390,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7fe5837dedd41ac438e69beafd0afb87
-      internalID: -1284779659
+      spriteID: a492089709ae0594a8e0c1ecf3a708c4
+      internalID: -709477345
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Zombie-LPC-Generator_61
+      name: Zombie_61
       rect:
         serializedVersion: 2
         x: 81
@@ -1411,14 +1411,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d247e4375cc93ef43aca5be88e603e59
-      internalID: -2052619685
+      spriteID: 4335760baa1a9eb458645d79e91b96c2
+      internalID: -2015010423
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Zombie-LPC-Generator_62
+      name: Zombie_62
       rect:
         serializedVersion: 2
         x: 145
@@ -1432,14 +1432,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bf9e77a657d540442a0c191601b61319
-      internalID: 689362672
+      spriteID: b9e76e5348d75f140ae81302e681d274
+      internalID: 1031955933
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Zombie-LPC-Generator_63
+      name: Zombie_63
       rect:
         serializedVersion: 2
         x: 209
@@ -1453,14 +1453,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ba47728a8ec333e4aa0007a0c69b6c23
-      internalID: -1710468719
+      spriteID: bcf5cb6f065db9e4c93450185308cfba
+      internalID: -987300026
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Zombie-LPC-Generator_64
+      name: Zombie_64
       rect:
         serializedVersion: 2
         x: 273
@@ -1474,14 +1474,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6d47c85039d23434a88a57858b72e193
-      internalID: -510664001
+      spriteID: a28e46598517b374eb42df385f924c2d
+      internalID: -1531265047
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Zombie-LPC-Generator_65
+      name: Zombie_65
       rect:
         serializedVersion: 2
         x: 337
@@ -1495,14 +1495,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9ae7ffce5efc4ef43a5f3baafdac00e7
-      internalID: 2014221096
+      spriteID: 430dac68a13de974b84a2437ef4ccb93
+      internalID: 1844530743
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Zombie-LPC-Generator_66
+      name: Zombie_66
       rect:
         serializedVersion: 2
         x: 401
@@ -1516,14 +1516,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 52eaab3538b3a6c4f9812d1f3f49ebfb
-      internalID: 1432953298
+      spriteID: 122e12ac6a5f3644f9defe55b5299d6f
+      internalID: -730283893
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Zombie-LPC-Generator_67
+      name: Zombie_67
       rect:
         serializedVersion: 2
         x: 466
@@ -1537,14 +1537,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 42f27e17e59052146a83ce926cdc7976
-      internalID: -1465474414
+      spriteID: ad7eb2306945b2c498ee9b7e5b8d4475
+      internalID: -845461204
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Zombie-LPC-Generator_68
+      name: Zombie_68
       rect:
         serializedVersion: 2
         x: 529
@@ -1558,14 +1558,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: de39e785b8d8bc143ad5f2819ce4a26a
-      internalID: 547049260
+      spriteID: 7952587f89a4ca4438f7ea9744e1f1b1
+      internalID: 2040710720
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Zombie-LPC-Generator_69
+      name: Zombie_69
       rect:
         serializedVersion: 2
         x: 23
@@ -1579,14 +1579,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 938dbec98df4fee4c8619a0fff403946
-      internalID: -57656850
+      spriteID: 4a86148903ca83b4cba35fcebff49b52
+      internalID: 1519341683
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Zombie-LPC-Generator_70
+      name: Zombie_70
       rect:
         serializedVersion: 2
         x: 83
@@ -1600,14 +1600,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 655735ff53c2e1f4aba7bd1d485dc33a
-      internalID: -1226458795
+      spriteID: 89ecdedc8fff87d439980969734445e7
+      internalID: 310567680
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Zombie-LPC-Generator_71
+      name: Zombie_71
       rect:
         serializedVersion: 2
         x: 149
@@ -1621,14 +1621,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dd0c161b680f2894c906d4d09764e053
-      internalID: -1840239206
+      spriteID: 7d447f4c76d0a7444b637e5ffcc59e55
+      internalID: -542512441
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Zombie-LPC-Generator_72
+      name: Zombie_72
       rect:
         serializedVersion: 2
         x: 215
@@ -1642,14 +1642,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 55fe7a8b3b365b1428e545ceb7d534f2
-      internalID: 280663395
+      spriteID: 4851b9032a482364582a4cdca32a85a8
+      internalID: -514452635
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Zombie-LPC-Generator_73
+      name: Zombie_73
       rect:
         serializedVersion: 2
         x: 278
@@ -1663,14 +1663,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 55c2ca90fe64c6348aac58b6da2a2696
-      internalID: 978910619
+      spriteID: 1cf5a8f3beec173499a9711d1f4fe17b
+      internalID: 316185338
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Zombie-LPC-Generator_74
+      name: Zombie_74
       rect:
         serializedVersion: 2
         x: 340
@@ -1684,14 +1684,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ce51e4ed2ac7f014196e194553baf0b0
-      internalID: 1446692062
+      spriteID: 67d8a1ff055adf94098527be6816b697
+      internalID: 2097137160
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Zombie-LPC-Generator_75
+      name: Zombie_75
       rect:
         serializedVersion: 2
         x: 407
@@ -1705,14 +1705,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c53ad1d78322a0849b5f80f01f8f75f5
-      internalID: -98539672
+      spriteID: 0c260ca38c85d3641a96de0d4b4e2e07
+      internalID: -884108031
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Zombie-LPC-Generator_76
+      name: Zombie_76
       rect:
         serializedVersion: 2
         x: 471
@@ -1726,14 +1726,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c67f958f0c32b2f4a97d0f6c0f14e372
-      internalID: -54473490
+      spriteID: 902eb9ef6a6a9be4fbc990508a40f78e
+      internalID: 1218252224
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Zombie-LPC-Generator_77
+      name: Zombie_77
       rect:
         serializedVersion: 2
         x: 535
@@ -1747,14 +1747,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6b59aa92c37990846ba195f9b4823422
-      internalID: -1709427721
+      spriteID: 66964c4e5dd3a694fa5edb1058f64419
+      internalID: -1966109995
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Zombie-LPC-Generator_78
+      name: Zombie_78
       rect:
         serializedVersion: 2
         x: 17
@@ -1768,14 +1768,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e39dd63dd969b894d94f87367139866b
-      internalID: 894574829
+      spriteID: 3ca7e0fbe5a89a349ba2aec136e398a8
+      internalID: -954655921
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Zombie-LPC-Generator_79
+      name: Zombie_79
       rect:
         serializedVersion: 2
         x: 81
@@ -1789,14 +1789,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9069c4b8b30dfe84ebe426af22ea4da5
-      internalID: 729450506
+      spriteID: 3b39927dd8fc06a4dabcf44e49a60d5f
+      internalID: 2126353895
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Zombie-LPC-Generator_80
+      name: Zombie_80
       rect:
         serializedVersion: 2
         x: 145
@@ -1810,14 +1810,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dbf0c0057430bbd4098d5f7589dc890d
-      internalID: -462671674
+      spriteID: 74ded8cdcf96dff4eb3663a1625da6a5
+      internalID: -1909472153
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Zombie-LPC-Generator_81
+      name: Zombie_81
       rect:
         serializedVersion: 2
         x: 210
@@ -1831,14 +1831,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e48c0d7a1c203ef449bb709e27d03bae
-      internalID: 2042884257
+      spriteID: 1970a121ffad7c5409b45a41ef42198c
+      internalID: 2110064604
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Zombie-LPC-Generator_82
+      name: Zombie_82
       rect:
         serializedVersion: 2
         x: 273
@@ -1852,14 +1852,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8b111def563520e459b290107548e676
-      internalID: 474582731
+      spriteID: ac36cc711b339f549ad01f95d508f9dd
+      internalID: 1490853179
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Zombie-LPC-Generator_83
+      name: Zombie_83
       rect:
         serializedVersion: 2
         x: 337
@@ -1873,14 +1873,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f9b09cd76bc53b44cb7eddfd057c810c
-      internalID: 1374690537
+      spriteID: 0940b75feaf6ac64bb0837a9aa00cccb
+      internalID: 756441491
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Zombie-LPC-Generator_84
+      name: Zombie_84
       rect:
         serializedVersion: 2
         x: 401
@@ -1894,14 +1894,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6e1d12ce41f61dc4caeb03aba0c5afdd
-      internalID: -483189684
+      spriteID: 5c17c9c19d3868043a12e50d270b9339
+      internalID: 1980658669
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Zombie-LPC-Generator_85
+      name: Zombie_85
       rect:
         serializedVersion: 2
         x: 465
@@ -1915,14 +1915,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1b9e30a3d23a1eb42bd0a888ed183722
-      internalID: 1037522404
+      spriteID: 06f091b631b043d4fb07bd5a0caf201c
+      internalID: 1741201288
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Zombie-LPC-Generator_86
+      name: Zombie_86
       rect:
         serializedVersion: 2
         x: 529
@@ -1936,14 +1936,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d9ddc5f11a398ac43931270c78fb0277
-      internalID: -1604571032
+      spriteID: 923f6c3f17a744b44904a8c87ed3e4ba
+      internalID: 2105165031
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Zombie-LPC-Generator_87
+      name: Zombie_87
       rect:
         serializedVersion: 2
         x: 21
@@ -1957,14 +1957,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1f6c09bb541f5ff4eb4750b9ea593396
-      internalID: 376567104
+      spriteID: eb049cd07f4b1d7438f6ff7853f46c52
+      internalID: 1049270707
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Zombie-LPC-Generator_88
+      name: Zombie_88
       rect:
         serializedVersion: 2
         x: 84
@@ -1978,14 +1978,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8f5e5f72c18b934419ae91e06e164459
-      internalID: 796170631
+      spriteID: d7d12e6f320317d48a387695163795c2
+      internalID: -638974669
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Zombie-LPC-Generator_89
+      name: Zombie_89
       rect:
         serializedVersion: 2
         x: 149
@@ -1999,14 +1999,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9c5723c7eef399a4c80eececa04cf7fe
-      internalID: 843685885
+      spriteID: b5f0b89b6495be747bafaf4bfe68ff10
+      internalID: -631483419
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Zombie-LPC-Generator_90
+      name: Zombie_90
       rect:
         serializedVersion: 2
         x: 211
@@ -2020,14 +2020,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: db59f6dda33415d4a979e5fdcef0f04a
-      internalID: 522176853
+      spriteID: da5fd2ca892acc54190cbbd6fd7bcda9
+      internalID: 1347253187
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Zombie-LPC-Generator_91
+      name: Zombie_91
       rect:
         serializedVersion: 2
         x: 274
@@ -2041,14 +2041,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d89b14015df14304b99d88417c6ab6ab
-      internalID: -1004923732
+      spriteID: cc9b0c902faec65468dfe0b9135a4ecc
+      internalID: 1507593249
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Zombie-LPC-Generator_92
+      name: Zombie_92
       rect:
         serializedVersion: 2
         x: 336
@@ -2062,14 +2062,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0f3f14ba06443f8439c9086aeeb92af3
-      internalID: 529828297
+      spriteID: 3c5ad90e7f23e1645802c8c771b3fe92
+      internalID: -1726744250
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Zombie-LPC-Generator_93
+      name: Zombie_93
       rect:
         serializedVersion: 2
         x: 402
@@ -2083,14 +2083,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4e86b3dc92f8dd344878169947624109
-      internalID: -273723123
+      spriteID: d746cb32590ca2347a19fc4c99ac029a
+      internalID: 1846223654
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Zombie-LPC-Generator_94
+      name: Zombie_94
       rect:
         serializedVersion: 2
         x: 467
@@ -2104,14 +2104,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a18d00ecefc52294ca4b54043ac7ef5b
-      internalID: 400551539
+      spriteID: 466e7597f15078d40bf3eb2b263b6887
+      internalID: 1586127185
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Zombie-LPC-Generator_95
+      name: Zombie_95
       rect:
         serializedVersion: 2
         x: 532
@@ -2125,14 +2125,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bed5a4e464b448f49b3557a2c168e130
-      internalID: 654316576
+      spriteID: 0b1904d15baeb3f4e8f3717b61f4f75d
+      internalID: -2130588203
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Zombie-LPC-Generator_96
+      name: Zombie_96
       rect:
         serializedVersion: 2
         x: 17
@@ -2146,14 +2146,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5d6acc8a677da544489983d6c8c2f446
-      internalID: -765217281
+      spriteID: 1b0357155fd58dc4eb21468ed767b2a5
+      internalID: 146089507
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Zombie-LPC-Generator_97
+      name: Zombie_97
       rect:
         serializedVersion: 2
         x: 83
@@ -2167,14 +2167,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cfc0d5f4ab8d26149bb4bef4b3c3ddef
-      internalID: -1500542688
+      spriteID: 639b4c1fa80d9bc4aaacfa6475f94a3e
+      internalID: 562176225
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Zombie-LPC-Generator_98
+      name: Zombie_98
       rect:
         serializedVersion: 2
         x: 148
@@ -2188,14 +2188,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3a4c10496b5c9bd40a50f4e6020ddd1a
-      internalID: -1715157927
+      spriteID: 055491b93d5476144bbc5d04239d0c2a
+      internalID: 1092479237
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Zombie-LPC-Generator_99
+      name: Zombie_99
       rect:
         serializedVersion: 2
         x: 211
@@ -2209,14 +2209,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 00300e0bb5c6f674986208370348b293
-      internalID: -903110994
+      spriteID: a2aa524c336c3974ea197880466a5335
+      internalID: -437584717
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Zombie-LPC-Generator_100
+      name: Zombie_100
       rect:
         serializedVersion: 2
         x: 274
@@ -2230,14 +2230,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7897a7792d8623d47a40d5dd88877ba4
-      internalID: 844526370
+      spriteID: 6592344dbe9fcac4c83376f36a95c4e0
+      internalID: 1260634943
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Zombie-LPC-Generator_101
+      name: Zombie_101
       rect:
         serializedVersion: 2
         x: 338
@@ -2251,14 +2251,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6caaf478afff7a44283928a687e02e31
-      internalID: 1762044374
+      spriteID: d0a29e8143417894caada12a4cc9bfee
+      internalID: -115928299
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Zombie-LPC-Generator_102
+      name: Zombie_102
       rect:
         serializedVersion: 2
         x: 23
@@ -2272,14 +2272,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7c9094fde37f95142938bcf34b22a3a6
-      internalID: 339927779
+      spriteID: 4cf9c4baba90ecc4ea175264b5e58125
+      internalID: -916217598
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Zombie-LPC-Generator_103
+      name: Zombie_103
       rect:
         serializedVersion: 2
         x: 81
@@ -2293,14 +2293,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f603e5f5c2fe75f4fa36b90f516b4522
-      internalID: 1979818217
+      spriteID: 4240d35c61438514085acab77f1b02a4
+      internalID: 1180249189
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Zombie-LPC-Generator_104
+      name: Zombie_104
       rect:
         serializedVersion: 2
         x: 148
@@ -2314,14 +2314,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b597617c0335fb24d8138e84c447374f
-      internalID: 651373274
+      spriteID: 83305cc0a87241b4da68cf17cfff0245
+      internalID: -1065647193
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Zombie-LPC-Generator_105
+      name: Zombie_105
       rect:
         serializedVersion: 2
         x: 203
@@ -2335,14 +2335,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4c3fc2239c02a524ca00af063a4d076f
-      internalID: 1060108946
+      spriteID: fa934c177276cd94fb5bcb72cd7c2b80
+      internalID: 1822542867
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Zombie-LPC-Generator_106
+      name: Zombie_106
       rect:
         serializedVersion: 2
         x: 264
@@ -2356,14 +2356,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1be9a316ec666444cad11172f18cae80
-      internalID: -892911264
+      spriteID: 057e5fa2b0e61c443a8d7208aa603627
+      internalID: -770721562
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Zombie-LPC-Generator_107
+      name: Zombie_107
       rect:
         serializedVersion: 2
         x: 331
@@ -2377,14 +2377,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d2081172218790947b98aef16a32dd5a
-      internalID: -616530770
+      spriteID: ca9e520aad45ca54290d6b1e9d13875b
+      internalID: -1047737003
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Zombie-LPC-Generator_108
+      name: Zombie_108
       rect:
         serializedVersion: 2
         x: 17
@@ -2398,14 +2398,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fe33dac649c765d4caa54da0e2f89932
-      internalID: -1648206571
+      spriteID: a96154142142bb04b9e78c65ecb7e4f3
+      internalID: -1618777135
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Zombie-LPC-Generator_109
+      name: Zombie_109
       rect:
         serializedVersion: 2
         x: 83
@@ -2419,14 +2419,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fbf6c50399ab34948b2d2924916b10ab
-      internalID: 1454764107
+      spriteID: dccb529860cf3c54ba9f60c4334e9945
+      internalID: -731940261
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Zombie-LPC-Generator_110
+      name: Zombie_110
       rect:
         serializedVersion: 2
         x: 147
@@ -2440,14 +2440,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 142a9bfd7cb28774884e4ce7db7e1b58
-      internalID: -1551236033
+      spriteID: 39d2cdc624c22b94ba01db408141b842
+      internalID: 743310410
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Zombie-LPC-Generator_111
+      name: Zombie_111
       rect:
         serializedVersion: 2
         x: 212
@@ -2461,14 +2461,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 78b2df771fba57c4fb5a2feeb0ec4433
-      internalID: -46436878
+      spriteID: 34539ef2cbea12b47b0897358bba8c32
+      internalID: 93485104
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Zombie-LPC-Generator_112
+      name: Zombie_112
       rect:
         serializedVersion: 2
         x: 276
@@ -2482,14 +2482,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f1d277f4d0622fd4ebe115d29f9f4734
-      internalID: 1933938721
+      spriteID: 610121556aa75b54eb8e8f4d67238cfb
+      internalID: -287055912
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Zombie-LPC-Generator_113
+      name: Zombie_113
       rect:
         serializedVersion: 2
         x: 339
@@ -2503,14 +2503,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fd02896e550af53488d92e06ae908a46
-      internalID: -77682588
+      spriteID: 44fbc6a00f7024f4a98f1bf6688ada7e
+      internalID: -97462576
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Zombie-LPC-Generator_114
+      name: Zombie_114
       rect:
         serializedVersion: 2
         x: 21
@@ -2524,14 +2524,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 655a3d8cf79fd6944a3a6d6254f5a885
-      internalID: -1511445968
+      spriteID: b79c84b75e349ae45ba794af23acc2d4
+      internalID: 1705673545
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Zombie-LPC-Generator_115
+      name: Zombie_115
       rect:
         serializedVersion: 2
         x: 86
@@ -2545,14 +2545,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2480678a347752f488f30fe6e6c05f67
-      internalID: -1922164985
+      spriteID: 90b6ea3b8bcb1454daa8784cad9463dc
+      internalID: 1631551790
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Zombie-LPC-Generator_116
+      name: Zombie_116
       rect:
         serializedVersion: 2
         x: 148
@@ -2566,14 +2566,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3ef4a48a15553a54c8a3f26e1c423e13
-      internalID: 2066042475
+      spriteID: fd6244db1cf07d046bdeef952ea6eb45
+      internalID: -994734514
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Zombie-LPC-Generator_117
+      name: Zombie_117
       rect:
         serializedVersion: 2
         x: 211
@@ -2587,14 +2587,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d3f3b830f0b204e4297887c58ded1c83
-      internalID: 1832031556
+      spriteID: be6af996c42425a4c9d229dc4fde1696
+      internalID: -11380885
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Zombie-LPC-Generator_118
+      name: Zombie_118
       rect:
         serializedVersion: 2
         x: 276
@@ -2608,14 +2608,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 19ba56eb839016f48af3638e293ab767
-      internalID: 561293799
+      spriteID: a384bff9b269dcd47b91c143dd563bc7
+      internalID: -955375017
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Zombie-LPC-Generator_119
+      name: Zombie_119
       rect:
         serializedVersion: 2
         x: 340
@@ -2629,14 +2629,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2525f511746ef2547a37772421830860
-      internalID: -1160030012
+      spriteID: 0a0802fc7bbede542a5bbc2023867edd
+      internalID: 665546823
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Zombie-LPC-Generator_120
+      name: Zombie_120
       rect:
         serializedVersion: 2
         x: 16
@@ -2650,14 +2650,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 98314d363bfeafd479a975d5d0350b69
-      internalID: -1732397752
+      spriteID: 8ad3d974ef47475419bb1dca3da1044f
+      internalID: 2136770288
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Zombie-LPC-Generator_121
+      name: Zombie_121
       rect:
         serializedVersion: 2
         x: 83
@@ -2671,14 +2671,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ea6f9a5f77af0ae4d9c7a83962362861
-      internalID: -346132650
+      spriteID: a52cd1e5ee2562c42b36adac214b07f7
+      internalID: 1020159476
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Zombie-LPC-Generator_122
+      name: Zombie_122
       rect:
         serializedVersion: 2
         x: 149
@@ -2692,14 +2692,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b62937d6164b2d649b66d540c59c36c1
-      internalID: -1097646177
+      spriteID: 72b0ea52f1d1a6d4184c932fe0a89f93
+      internalID: -1913452001
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Zombie-LPC-Generator_123
+      name: Zombie_123
       rect:
         serializedVersion: 2
         x: 212
@@ -2713,14 +2713,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6ed7337ac70f5fc4bb45515c28b44828
-      internalID: 227280863
+      spriteID: 79628ffbcbfd7c845817dd14287d1762
+      internalID: 2142496340
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Zombie-LPC-Generator_124
+      name: Zombie_124
       rect:
         serializedVersion: 2
         x: 276
@@ -2734,14 +2734,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1ebe723ea893e4b40a078e8f7afe71b9
-      internalID: -1258192520
+      spriteID: fb5cdecbfcc42ee41a998e2374185d1f
+      internalID: 850939470
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Zombie-LPC-Generator_125
+      name: Zombie_125
       rect:
         serializedVersion: 2
         x: 340
@@ -2755,14 +2755,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: baa018beec5806749afe22233dd3e732
-      internalID: 223149991
+      spriteID: 9da42866a7cdfd34eafaab07a8a70bdb
+      internalID: -1156360653
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Zombie-LPC-Generator_126
+      name: Zombie_126
       rect:
         serializedVersion: 2
         x: 404
@@ -2776,14 +2776,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7f49e9aea1e8b774b981a442e6fba7f5
-      internalID: 413429088
+      spriteID: 0d03d1940c5d5e84f9a2e90c8618ee4c
+      internalID: -1215670357
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Zombie-LPC-Generator_127
+      name: Zombie_127
       rect:
         serializedVersion: 2
         x: 468
@@ -2797,14 +2797,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a53c2484ec72f604eade36cac4667a76
-      internalID: -1789072554
+      spriteID: ef2590b1c8f1cc44383ce9eae98885a9
+      internalID: -406017165
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Zombie-LPC-Generator_128
+      name: Zombie_128
       rect:
         serializedVersion: 2
         x: 532
@@ -2818,14 +2818,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8ad73f55a109cd64a9c5cb8a48dfc74a
-      internalID: 819651252
+      spriteID: d5a7ebd4ad988a141be95b4dc0be5749
+      internalID: 109050930
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Zombie-LPC-Generator_129
+      name: Zombie_129
       rect:
         serializedVersion: 2
         x: 596
@@ -2839,14 +2839,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f9635c565ba1b3a4d90c76c70a5cc0e8
-      internalID: 1227261943
+      spriteID: f849931ffce21db4e907f126ac7ad6e6
+      internalID: 712475600
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Zombie-LPC-Generator_130
+      name: Zombie_130
       rect:
         serializedVersion: 2
         x: 660
@@ -2860,14 +2860,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: eec605792f3b03f4a9907183f4deb4aa
-      internalID: -997685511
+      spriteID: 614c335bc0207b5449e8e517e626049f
+      internalID: -1719746040
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Zombie-LPC-Generator_131
+      name: Zombie_131
       rect:
         serializedVersion: 2
         x: 724
@@ -2881,14 +2881,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 16ef0dd9ff9a687469bf873421e80f25
-      internalID: 2068455646
+      spriteID: 8d7d1d5eefb7f1f468532e9bcae82e17
+      internalID: 1047894660
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Zombie-LPC-Generator_132
+      name: Zombie_132
       rect:
         serializedVersion: 2
         x: 788
@@ -2902,14 +2902,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3c0bd1aba78fdfa49a48fab8c3235bea
-      internalID: 1213100076
+      spriteID: 00a2ebcad1e502b43a066559c855df1f
+      internalID: 380868126
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Zombie-LPC-Generator_133
+      name: Zombie_133
       rect:
         serializedVersion: 2
         x: 24
@@ -2923,14 +2923,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1aab466c919f96b4ca538de5a4b3fcf3
-      internalID: 2110639522
+      spriteID: 761b5c2dc85fe804d8ff1cacbda7cca7
+      internalID: -361005355
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Zombie-LPC-Generator_134
+      name: Zombie_134
       rect:
         serializedVersion: 2
         x: 84
@@ -2944,14 +2944,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1b5c7770b64bd9a4b8a8dbc8ea5796ab
-      internalID: 1878583231
+      spriteID: b0693342406aa114c8ac983b7bbc3de8
+      internalID: -1770460016
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Zombie-LPC-Generator_135
+      name: Zombie_135
       rect:
         serializedVersion: 2
         x: 143
@@ -2965,14 +2965,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b07f5a0472a6b334cb44bc0cebcece03
-      internalID: -665271398
+      spriteID: 6226d1987bea3a544b21e0ffb2724aec
+      internalID: 2040606550
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Zombie-LPC-Generator_136
+      name: Zombie_136
       rect:
         serializedVersion: 2
         x: 205
@@ -2986,14 +2986,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3bf9d96aed3651d4fbab197b76a3e429
-      internalID: 1369682533
+      spriteID: de9af9a78e547ab4facef23f4d69ae7d
+      internalID: -647104242
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Zombie-LPC-Generator_137
+      name: Zombie_137
       rect:
         serializedVersion: 2
         x: 269
@@ -3007,14 +3007,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8573b4971b7db574faa05fec16d0a6ec
-      internalID: -1087137741
+      spriteID: b33079a44b9bd0b4f92802b5cf361f4b
+      internalID: -184608532
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Zombie-LPC-Generator_138
+      name: Zombie_138
       rect:
         serializedVersion: 2
         x: 332
@@ -3028,14 +3028,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 88f34b1737538e9468aa701107ff2c99
-      internalID: 811003381
+      spriteID: 4cfe16a85c06ea1479f50230288f0fa5
+      internalID: 616750816
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Zombie-LPC-Generator_139
+      name: Zombie_139
       rect:
         serializedVersion: 2
         x: 396
@@ -3049,14 +3049,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4752d252bb5a78f498e657ac03dc33b7
-      internalID: 486372642
+      spriteID: 605d611b305568340b342bd03d19d472
+      internalID: 1314645078
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Zombie-LPC-Generator_140
+      name: Zombie_140
       rect:
         serializedVersion: 2
         x: 461
@@ -3070,14 +3070,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d71e4e134f784844ca266f00eaae7ab6
-      internalID: -1710481905
+      spriteID: 6cd3e0689e5655b4e84fb4b5c5e40fd7
+      internalID: -2104846867
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Zombie-LPC-Generator_141
+      name: Zombie_141
       rect:
         serializedVersion: 2
         x: 525
@@ -3091,14 +3091,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bd1dbb67ad77b3941a1413f8996fd8bc
-      internalID: -1551686215
+      spriteID: ee94e967f61dbef4988e7cf54313fffc
+      internalID: 1399204616
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Zombie-LPC-Generator_142
+      name: Zombie_142
       rect:
         serializedVersion: 2
         x: 589
@@ -3112,14 +3112,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e739975386a3e8a4fbdcff8ccf6a4386
-      internalID: 1618617097
+      spriteID: 70210a263fbaf5948ac35561fc141e36
+      internalID: -139067153
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Zombie-LPC-Generator_143
+      name: Zombie_143
       rect:
         serializedVersion: 2
         x: 653
@@ -3133,14 +3133,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 85f10cb82e55c0240849e64e97302cb1
-      internalID: -995316653
+      spriteID: 08b6f24ed503ebb449438f24ce8fd20e
+      internalID: 2103112741
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Zombie-LPC-Generator_144
+      name: Zombie_144
       rect:
         serializedVersion: 2
         x: 717
@@ -3154,14 +3154,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2abe6fadb5c8ea1489e1db3187796037
-      internalID: 1428855433
+      spriteID: 8a74b0b3d12645848a346cbce3dff99e
+      internalID: -1776699173
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Zombie-LPC-Generator_145
+      name: Zombie_145
       rect:
         serializedVersion: 2
         x: 781
@@ -3175,14 +3175,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b9b65c91b491dfb408a7835292584313
-      internalID: 1163145885
+      spriteID: 258b06ea867414e4fac82d859db52156
+      internalID: -1118685656
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Zombie-LPC-Generator_146
+      name: Zombie_146
       rect:
         serializedVersion: 2
         x: 16
@@ -3196,14 +3196,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1d8088acec30a9445a8cec86209f80eb
-      internalID: 1744381288
+      spriteID: da047a81d6a67914b816e30c7dc8ece7
+      internalID: 1718455172
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Zombie-LPC-Generator_147
+      name: Zombie_147
       rect:
         serializedVersion: 2
         x: 82
@@ -3217,14 +3217,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 200cbd1adb6db3b4eb17ad3025cf1b99
-      internalID: 44636499
+      spriteID: 9d9e7d43330d9e342a3ff746fe9853bb
+      internalID: 1893826563
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Zombie-LPC-Generator_148
+      name: Zombie_148
       rect:
         serializedVersion: 2
         x: 146
@@ -3238,14 +3238,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e0283c149e011c441a92cdddd9ab5c69
-      internalID: 1176281303
+      spriteID: 29833716b546bad4d99cbae594ea5add
+      internalID: -1070161239
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Zombie-LPC-Generator_149
+      name: Zombie_149
       rect:
         serializedVersion: 2
         x: 210
@@ -3259,14 +3259,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4365cf224769fdd4ca6d18e1ef8d1428
-      internalID: -1002544654
+      spriteID: 972cb744709f1654aa7ceebcaac31193
+      internalID: 710276090
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Zombie-LPC-Generator_150
+      name: Zombie_150
       rect:
         serializedVersion: 2
         x: 275
@@ -3280,14 +3280,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9ce18a51795db554f9d5ea948d8cef32
-      internalID: 968142521
+      spriteID: bab294585fa34f54d8b70ae26898edaf
+      internalID: 1437050901
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Zombie-LPC-Generator_151
+      name: Zombie_151
       rect:
         serializedVersion: 2
         x: 339
@@ -3301,14 +3301,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6ed1b5499129c6b49bde0eb03050150c
-      internalID: 141394633
+      spriteID: e39725f061c6fb342b4f2ff932735954
+      internalID: -1318408967
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Zombie-LPC-Generator_152
+      name: Zombie_152
       rect:
         serializedVersion: 2
         x: 403
@@ -3322,14 +3322,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bb1152dfafc1ef44fa916293afe22005
-      internalID: -1406415764
+      spriteID: 64baa9b386bc7b24481d8540cb81e7b2
+      internalID: 517159582
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Zombie-LPC-Generator_153
+      name: Zombie_153
       rect:
         serializedVersion: 2
         x: 466
@@ -3343,14 +3343,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8dc2020862b17df4995b4b25f2df52ec
-      internalID: -1281743620
+      spriteID: a8b36f8444db7bc458b3ec81ea6bc99f
+      internalID: 450290337
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Zombie-LPC-Generator_154
+      name: Zombie_154
       rect:
         serializedVersion: 2
         x: 530
@@ -3364,14 +3364,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5a7f58708cf031642957ce0d1ef2985a
-      internalID: -890088390
+      spriteID: 7b9fd3ecba25fbc4bb9102a81e827a86
+      internalID: -878681858
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Zombie-LPC-Generator_155
+      name: Zombie_155
       rect:
         serializedVersion: 2
         x: 595
@@ -3385,14 +3385,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1ffb3b325bfd9d1449dd897592b9d350
-      internalID: 1386796005
+      spriteID: 903abbea9b5e12d42b04bd32ff69d9a1
+      internalID: 1947378281
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Zombie-LPC-Generator_156
+      name: Zombie_156
       rect:
         serializedVersion: 2
         x: 658
@@ -3406,14 +3406,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b3fe8a5cf290a2e4383b31e1d09c3d2d
-      internalID: 661540602
+      spriteID: c127da8a4dc40f2468ef9a51a2b29abd
+      internalID: 1723666284
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Zombie-LPC-Generator_157
+      name: Zombie_157
       rect:
         serializedVersion: 2
         x: 724
@@ -3427,14 +3427,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 736be6509eb1f6e44849f9f26b27adc3
-      internalID: -456867056
+      spriteID: 7184b25da1e8bfc4a8499bf033c5d568
+      internalID: 321619512
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Zombie-LPC-Generator_158
+      name: Zombie_158
       rect:
         serializedVersion: 2
         x: 786
@@ -3448,14 +3448,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a52f819e9d3a9274ebaf4d6278689770
-      internalID: 923327290
+      spriteID: 98dbb6eff8dcf0c48abb8b606b11b5f1
+      internalID: 1524036068
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Zombie-LPC-Generator_159
+      name: Zombie_159
       rect:
         serializedVersion: 2
         x: 20
@@ -3469,14 +3469,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 911c1def8c9955447823f55a9b0ddc3d
-      internalID: 300994927
+      spriteID: 8b40611eb07b02b44b159149cd1e552b
+      internalID: 86120059
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Zombie-LPC-Generator_160
+      name: Zombie_160
       rect:
         serializedVersion: 2
         x: 83
@@ -3490,14 +3490,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ace61604bb5b3a9429940289b48da2fd
-      internalID: 975744128
+      spriteID: 1506b1a57cc2d264b80b858d657f00ab
+      internalID: -1195980397
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Zombie-LPC-Generator_161
+      name: Zombie_161
       rect:
         serializedVersion: 2
         x: 145
@@ -3511,14 +3511,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f89e7e3f183379d4391fbb31812d5d4e
-      internalID: -241073235
+      spriteID: 596da599952d2604888cc3e5c56f0e29
+      internalID: 847326716
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Zombie-LPC-Generator_162
+      name: Zombie_162
       rect:
         serializedVersion: 2
         x: 208
@@ -3532,14 +3532,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7a528277a7fc2404ba0bb75a0e93ff25
-      internalID: -1208050546
+      spriteID: 46cc2307d47470e40b52984b68be13e5
+      internalID: -1949401033
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Zombie-LPC-Generator_163
+      name: Zombie_163
       rect:
         serializedVersion: 2
         x: 272
@@ -3553,14 +3553,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cee8b590c12b1274ba808701409b79e8
-      internalID: 676959179
+      spriteID: bbf89ba5e73f1e240924ce754c6f7a35
+      internalID: -1435433283
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Zombie-LPC-Generator_164
+      name: Zombie_164
       rect:
         serializedVersion: 2
         x: 340
@@ -3574,14 +3574,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f4dd56a0b9b268e40af6619f072d2502
-      internalID: 412461000
+      spriteID: da432ae64c9a4f74892e98fa8602d44f
+      internalID: 1962149013
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Zombie-LPC-Generator_165
+      name: Zombie_165
       rect:
         serializedVersion: 2
         x: 402
@@ -3595,14 +3595,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 718d5e5e968ef614793c79e02e9ddeaa
-      internalID: 1922166411
+      spriteID: c3a0e22027512064fb0eb123dcd63d71
+      internalID: 279518280
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Zombie-LPC-Generator_166
+      name: Zombie_166
       rect:
         serializedVersion: 2
         x: 463
@@ -3616,14 +3616,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b3b9f267e86915a49aa7c162211122f2
-      internalID: -595329258
+      spriteID: ce1681ee88e977f489a260f10fc2a939
+      internalID: 630375868
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Zombie-LPC-Generator_167
+      name: Zombie_167
       rect:
         serializedVersion: 2
         x: 525
@@ -3637,14 +3637,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 151b8aa85ead4e34a8ced0a5cc4bbbdd
-      internalID: 748131494
+      spriteID: 0afb30a917936cf40b8d361327695e77
+      internalID: -1916211525
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Zombie-LPC-Generator_168
+      name: Zombie_168
       rect:
         serializedVersion: 2
         x: 592
@@ -3658,14 +3658,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e93041b4cce15e148ba0ffb9136e950e
-      internalID: 2079256195
+      spriteID: 2ef310e7f07ddf740909b9498833e4eb
+      internalID: -598531995
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Zombie-LPC-Generator_169
+      name: Zombie_169
       rect:
         serializedVersion: 2
         x: 657
@@ -3679,14 +3679,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ff311422c0224a54d8091cf7e3f25fc7
-      internalID: -1800468392
+      spriteID: ffe3c76bafca4554cac725c3d9896482
+      internalID: 844453144
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Zombie-LPC-Generator_170
+      name: Zombie_170
       rect:
         serializedVersion: 2
         x: 725
@@ -3700,14 +3700,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 76a46a9f501252f4f807c6374a4ad8d1
-      internalID: 1397487921
+      spriteID: b4f5967476c19a14391990ca513b1c5c
+      internalID: -666206390
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Zombie-LPC-Generator_171
+      name: Zombie_171
       rect:
         serializedVersion: 2
         x: 785
@@ -3721,14 +3721,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9073861cb39599d4ead3163b4c8a3e9a
-      internalID: 1199678268
+      spriteID: 73f2484a6735007459b9b4ae94cd4470
+      internalID: 707472597
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Zombie-LPC-Generator_172
+      name: Zombie_172
       rect:
         serializedVersion: 2
         x: 17
@@ -3742,14 +3742,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9575a5e61bffdd9428f0d9c4b83b651c
-      internalID: -36197147
+      spriteID: 090c81c37085e5f48b099f4b04df43c6
+      internalID: 694026487
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Zombie-LPC-Generator_173
+      name: Zombie_173
       rect:
         serializedVersion: 2
         x: 82
@@ -3763,14 +3763,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 788218c9a349f5e45afbca446566581f
-      internalID: -1354100610
+      spriteID: 9fa35a8cf5e2edd4d9d62bccd2e59e5e
+      internalID: -1766811826
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Zombie-LPC-Generator_174
+      name: Zombie_174
       rect:
         serializedVersion: 2
         x: 147
@@ -3784,14 +3784,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 83dd8649ac7e6b4439db92340db63779
-      internalID: 2022763125
+      spriteID: e2c41da2da7daf04fb71a795e23f6e0b
+      internalID: -1588961362
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Zombie-LPC-Generator_175
+      name: Zombie_175
       rect:
         serializedVersion: 2
         x: 211
@@ -3805,14 +3805,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d59f530d85fcc2d458ff16d86a7972d3
-      internalID: -1317788306
+      spriteID: 9db421801899e144781a590095b812f7
+      internalID: 1111854542
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Zombie-LPC-Generator_176
+      name: Zombie_176
       rect:
         serializedVersion: 2
         x: 275
@@ -3826,14 +3826,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e3085a79a5e438a41adb6c3f0d3a3b9b
-      internalID: 799784281
+      spriteID: 6c8deeccfa585e64e9841208824d4488
+      internalID: 1267826239
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Zombie-LPC-Generator_177
+      name: Zombie_177
       rect:
         serializedVersion: 2
         x: 338
@@ -3847,8 +3847,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e9bc1d5cb1ef8aa419a2a48ebd0716c2
-      internalID: 1852847507
+      spriteID: dd5508e9a5a5064448861dcc86741844
+      internalID: 464400207
       vertices: []
       indices: 
       edges: []
@@ -3864,184 +3864,184 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Zombie-LPC-Generator_135: -665271398
-      Zombie-LPC-Generator_134: 1878583231
-      Zombie-LPC-Generator_152: -1406415764
-      Zombie-LPC-Generator_151: 141394633
-      Zombie-LPC-Generator_8: 2076530618
-      Zombie-LPC-Generator_32: -43898042
-      Zombie-LPC-Generator_10: 1120448630
-      Zombie-LPC-Generator_121: -346132650
-      Zombie-LPC-Generator_91: -1004923732
-      Zombie-LPC-Generator_119: -1160030012
-      Zombie-LPC-Generator_105: 1060108946
-      Zombie-LPC-Generator_133: 2110639522
-      Zombie-LPC-Generator_148: 1176281303
-      Zombie-LPC-Generator_31: -187917913
-      Zombie-LPC-Generator_154: -890088390
-      Zombie-LPC-Generator_161: -241073235
-      Zombie-LPC-Generator_58: 177407907
-      Zombie-LPC-Generator_3: -1418961817
-      Zombie-LPC-Generator_52: 931016641
-      Zombie-LPC-Generator_136: 1369682533
-      Zombie-LPC-Generator_92: 529828297
-      Zombie-LPC-Generator_14: -910505575
-      Zombie-LPC-Generator_126: 413429088
-      Zombie-LPC-Generator_70: -1226458795
-      Zombie-LPC-Generator_99: -903110994
-      Zombie-LPC-Generator_1: 1205192108
-      Zombie-LPC-Generator_81: 2042884257
-      Zombie-LPC-Generator_164: 412461000
-      Zombie-LPC-Generator_87: 376567104
-      Zombie-LPC-Generator_165: 1922166411
-      Zombie-LPC-Generator_144: 1428855433
-      Zombie-LPC-Generator_69: -57656850
-      Zombie-LPC-Generator_123: 227280863
-      Zombie-LPC-Generator_155: 1386796005
-      Zombie-LPC-Generator_56: -1097707510
-      Zombie-LPC-Generator_19: -2063816978
-      Zombie-LPC-Generator_137: -1087137741
-      Zombie-LPC-Generator_4: 636218612
-      Zombie-LPC-Generator_13: -575591789
-      Zombie-LPC-Generator_162: -1208050546
-      Zombie-LPC-Generator_30: -196337419
-      Zombie-LPC-Generator_104: 651373274
-      Zombie-LPC-Generator_114: -1511445968
-      Zombie-LPC-Generator_177: 1852847507
-      Zombie-LPC-Generator_62: 689362672
-      Zombie-LPC-Generator_113: -77682588
-      Zombie-LPC-Generator_98: -1715157927
-      Zombie-LPC-Generator_76: -54473490
-      Zombie-LPC-Generator_33: 130522457
-      Zombie-LPC-Generator_141: -1551686215
-      Zombie-LPC-Generator_173: -1354100610
-      Zombie-LPC-Generator_41: -993207648
-      Zombie-LPC-Generator_50: 797621280
-      Zombie-LPC-Generator_80: -462671674
-      Zombie-LPC-Generator_125: 223149991
-      Zombie-LPC-Generator_36: 147150166
-      Zombie-LPC-Generator_2: -150304979
-      Zombie-LPC-Generator_48: -1365498782
-      Zombie-LPC-Generator_71: -1840239206
-      Zombie-LPC-Generator_34: 378516001
-      Zombie-LPC-Generator_38: -1284963417
-      Zombie-LPC-Generator_26: -693629018
-      Zombie-LPC-Generator_129: 1227261943
-      Zombie-LPC-Generator_79: 729450506
-      Zombie-LPC-Generator_66: 1432953298
-      Zombie-LPC-Generator_163: 676959179
-      Zombie-LPC-Generator_27: -828704452
-      Zombie-LPC-Generator_95: 654316576
-      Zombie-LPC-Generator_142: 1618617097
-      Zombie-LPC-Generator_24: -4040429
-      Zombie-LPC-Generator_147: 44636499
-      Zombie-LPC-Generator_57: 864583750
-      Zombie-LPC-Generator_22: -795860317
-      Zombie-LPC-Generator_153: -1281743620
-      Zombie-LPC-Generator_53: -1844327647
-      Zombie-LPC-Generator_25: -1920381988
-      Zombie-LPC-Generator_101: 1762044374
-      Zombie-LPC-Generator_140: -1710481905
-      Zombie-LPC-Generator_15: -479651293
-      Zombie-LPC-Generator_37: -620347729
-      Zombie-LPC-Generator_18: 188390477
-      Zombie-LPC-Generator_23: 717327287
-      Zombie-LPC-Generator_167: 748131494
-      Zombie-LPC-Generator_12: -1687594993
-      Zombie-LPC-Generator_6: -1840802643
-      Zombie-LPC-Generator_131: 2068455646
-      Zombie-LPC-Generator_108: -1648206571
-      Zombie-LPC-Generator_103: 1979818217
-      Zombie-LPC-Generator_112: 1933938721
-      Zombie-LPC-Generator_159: 300994927
-      Zombie-LPC-Generator_100: 844526370
-      Zombie-LPC-Generator_156: 661540602
-      Zombie-LPC-Generator_96: -765217281
-      Zombie-LPC-Generator_158: 923327290
-      Zombie-LPC-Generator_145: 1163145885
-      Zombie-LPC-Generator_35: -1831039612
-      Zombie-LPC-Generator_43: 1973667398
-      Zombie-LPC-Generator_110: -1551236033
-      Zombie-LPC-Generator_169: -1800468392
-      Zombie-LPC-Generator_46: 210995253
-      Zombie-LPC-Generator_149: -1002544654
-      Zombie-LPC-Generator_174: 2022763125
-      Zombie-LPC-Generator_60: -1284779659
-      Zombie-LPC-Generator_61: -2052619685
-      Zombie-LPC-Generator_21: 1269277848
-      Zombie-LPC-Generator_90: 522176853
-      Zombie-LPC-Generator_55: 443819354
-      Zombie-LPC-Generator_0: 1413570797
-      Zombie-LPC-Generator_74: 1446692062
-      Zombie-LPC-Generator_171: 1199678268
-      Zombie-LPC-Generator_116: 2066042475
-      Zombie-LPC-Generator_78: 894574829
-      Zombie-LPC-Generator_102: 339927779
-      Zombie-LPC-Generator_77: -1709427721
-      Zombie-LPC-Generator_42: 1836648881
-      Zombie-LPC-Generator_88: 796170631
-      Zombie-LPC-Generator_107: -616530770
-      Zombie-LPC-Generator_28: 259667742
-      Zombie-LPC-Generator_168: 2079256195
-      Zombie-LPC-Generator_47: -2064903296
-      Zombie-LPC-Generator_130: -997685511
-      Zombie-LPC-Generator_73: 978910619
-      Zombie-LPC-Generator_127: -1789072554
-      Zombie-LPC-Generator_5: -1881387005
-      Zombie-LPC-Generator_150: 968142521
-      Zombie-LPC-Generator_175: -1317788306
-      Zombie-LPC-Generator_59: -1969826300
-      Zombie-LPC-Generator_122: -1097646177
-      Zombie-LPC-Generator_67: -1465474414
-      Zombie-LPC-Generator_176: 799784281
-      Zombie-LPC-Generator_85: 1037522404
-      Zombie-LPC-Generator_64: -510664001
-      Zombie-LPC-Generator_160: 975744128
-      Zombie-LPC-Generator_89: 843685885
-      Zombie-LPC-Generator_75: -98539672
-      Zombie-LPC-Generator_17: -1319423249
-      Zombie-LPC-Generator_51: -340226349
-      Zombie-LPC-Generator_49: -2110849954
-      Zombie-LPC-Generator_84: -483189684
-      Zombie-LPC-Generator_93: -273723123
-      Zombie-LPC-Generator_143: -995316653
-      Zombie-LPC-Generator_166: -595329258
-      Zombie-LPC-Generator_11: 613976935
-      Zombie-LPC-Generator_16: -1283691182
-      Zombie-LPC-Generator_111: -46436878
-      Zombie-LPC-Generator_82: 474582731
-      Zombie-LPC-Generator_118: 561293799
-      Zombie-LPC-Generator_7: 2101234140
-      Zombie-LPC-Generator_29: -1474181971
-      Zombie-LPC-Generator_44: -791298782
-      Zombie-LPC-Generator_115: -1922164985
-      Zombie-LPC-Generator_94: 400551539
-      Zombie-LPC-Generator_157: -456867056
-      Zombie-LPC-Generator_9: -920991968
-      Zombie-LPC-Generator_106: -892911264
-      Zombie-LPC-Generator_20: -1014610515
-      Zombie-LPC-Generator_72: 280663395
-      Zombie-LPC-Generator_139: 486372642
-      Zombie-LPC-Generator_124: -1258192520
-      Zombie-LPC-Generator_132: 1213100076
-      Zombie-LPC-Generator_138: 811003381
-      Zombie-LPC-Generator_172: -36197147
-      Zombie-LPC-Generator_146: 1744381288
-      Zombie-LPC-Generator_83: 1374690537
-      Zombie-LPC-Generator_86: -1604571032
-      Zombie-LPC-Generator_109: 1454764107
-      Zombie-LPC-Generator_39: 640350161
-      Zombie-LPC-Generator_68: 547049260
-      Zombie-LPC-Generator_40: -1784885734
-      Zombie-LPC-Generator_170: 1397487921
-      Zombie-LPC-Generator_128: 819651252
-      Zombie-LPC-Generator_120: -1732397752
-      Zombie-LPC-Generator_117: 1832031556
-      Zombie-LPC-Generator_65: 2014221096
-      Zombie-LPC-Generator_63: -1710468719
-      Zombie-LPC-Generator_45: -1656608437
-      Zombie-LPC-Generator_97: -1500542688
-      Zombie-LPC-Generator_54: 1668039860
+      Zombie_19: 554126671
+      Zombie_58: 1847013914
+      Zombie_153: 450290337
+      Zombie_62: 1031955933
+      Zombie_92: -1726744250
+      Zombie_166: 630375868
+      Zombie_142: -139067153
+      Zombie_97: 562176225
+      Zombie_176: 1267826239
+      Zombie_72: -514452635
+      Zombie_75: -884108031
+      Zombie_112: -287055912
+      Zombie_40: 999598302
+      Zombie_22: 1194047226
+      Zombie_123: 2142496340
+      Zombie_25: -193957984
+      Zombie_150: 1437050901
+      Zombie_154: -878681858
+      Zombie_39: 303632167
+      Zombie_105: 1822542867
+      Zombie_12: -120824092
+      Zombie_114: 1705673545
+      Zombie_51: 1544740490
+      Zombie_126: -1215670357
+      Zombie_96: 146089507
+      Zombie_165: 279518280
+      Zombie_117: -11380885
+      Zombie_133: -361005355
+      Zombie_42: -2083549012
+      Zombie_28: -1474634114
+      Zombie_5: 595944531
+      Zombie_45: -606527027
+      Zombie_115: 1631551790
+      Zombie_163: -1435433283
+      Zombie_79: 2126353895
+      Zombie_151: -1318408967
+      Zombie_172: 694026487
+      Zombie_113: -97462576
+      Zombie_169: 844453144
+      Zombie_141: 1399204616
+      Zombie_14: 255056783
+      Zombie_86: 2105165031
+      Zombie_98: 1092479237
+      Zombie_48: 1661294567
+      Zombie_2: -175579135
+      Zombie_78: -954655921
+      Zombie_67: -845461204
+      Zombie_89: -631483419
+      Zombie_33: -1633076559
+      Zombie_80: -1909472153
+      Zombie_68: 2040710720
+      Zombie_106: -770721562
+      Zombie_71: -542512441
+      Zombie_129: 712475600
+      Zombie_50: 541502285
+      Zombie_160: -1195980397
+      Zombie_161: 847326716
+      Zombie_4: 1636495427
+      Zombie_173: -1766811826
+      Zombie_18: -669911881
+      Zombie_66: -730283893
+      Zombie_73: 316185338
+      Zombie_91: 1507593249
+      Zombie_152: 517159582
+      Zombie_61: -2015010423
+      Zombie_124: 850939470
+      Zombie_6: -1895492234
+      Zombie_36: 571730202
+      Zombie_140: -2104846867
+      Zombie_122: -1913452001
+      Zombie_168: -598531995
+      Zombie_88: -638974669
+      Zombie_139: 1314645078
+      Zombie_15: 827214867
+      Zombie_54: 1389077693
+      Zombie_65: 1844530743
+      Zombie_128: 109050930
+      Zombie_24: -1272048468
+      Zombie_84: 1980658669
+      Zombie_1: 1344041939
+      Zombie_121: 1020159476
+      Zombie_171: 707472597
+      Zombie_135: 2040606550
+      Zombie_174: -1588961362
+      Zombie_77: -1966109995
+      Zombie_74: 2097137160
+      Zombie_108: -1618777135
+      Zombie_119: 665546823
+      Zombie_145: -1118685656
+      Zombie_9: -1258680034
+      Zombie_49: 1189701937
+      Zombie_63: -987300026
+      Zombie_11: 1647123554
+      Zombie_70: 310567680
+      Zombie_55: -1966635138
+      Zombie_109: -731940261
+      Zombie_41: 619188790
+      Zombie_82: 1490853179
+      Zombie_100: 1260634943
+      Zombie_155: 1947378281
+      Zombie_83: 756441491
+      Zombie_31: -897903124
+      Zombie_34: -720186262
+      Zombie_64: -1531265047
+      Zombie_35: -425838463
+      Zombie_37: -1032330593
+      Zombie_90: 1347253187
+      Zombie_156: 1723666284
+      Zombie_111: 93485104
+      Zombie_118: -955375017
+      Zombie_170: -666206390
+      Zombie_3: -51838432
+      Zombie_10: -1908357033
+      Zombie_95: -2130588203
+      Zombie_7: -1506433778
+      Zombie_102: -916217598
+      Zombie_20: 109951034
+      Zombie_27: 1550656253
+      Zombie_23: -1906660248
+      Zombie_13: 769054534
+      Zombie_93: 1846223654
+      Zombie_164: 1962149013
+      Zombie_43: 62535546
+      Zombie_26: -1910687634
+      Zombie_76: 1218252224
+      Zombie_144: -1776699173
+      Zombie_101: -115928299
+      Zombie_177: 464400207
+      Zombie_143: 2103112741
+      Zombie_159: 86120059
+      Zombie_29: 181903661
+      Zombie_146: 1718455172
+      Zombie_110: 743310410
+      Zombie_131: 1047894660
+      Zombie_56: 793999815
+      Zombie_38: -1711243579
+      Zombie_32: -86704216
+      Zombie_125: -1156360653
+      Zombie_30: 889228352
+      Zombie_44: 53755400
+      Zombie_16: 156958375
+      Zombie_157: 321619512
+      Zombie_137: -184608532
+      Zombie_52: 106455316
+      Zombie_53: -1847507541
+      Zombie_138: 616750816
+      Zombie_162: -1949401033
+      Zombie_57: -1163166280
+      Zombie_107: -1047737003
+      Zombie_130: -1719746040
+      Zombie_0: 1861207756
+      Zombie_149: 710276090
+      Zombie_59: 1172408053
+      Zombie_17: 695610058
+      Zombie_85: 1741201288
+      Zombie_167: -1916211525
+      Zombie_127: -406017165
+      Zombie_69: 1519341683
+      Zombie_132: 380868126
+      Zombie_134: -1770460016
+      Zombie_116: -994734514
+      Zombie_158: 1524036068
+      Zombie_99: -437584717
+      Zombie_147: 1893826563
+      Zombie_8: -465048640
+      Zombie_94: 1586127185
+      Zombie_136: -647104242
+      Zombie_103: 1180249189
+      Zombie_148: -1070161239
+      Zombie_120: 2136770288
+      Zombie_104: -1065647193
+      Zombie_46: 1976114208
+      Zombie_47: 1992245040
+      Zombie_175: 1111854542
+      Zombie_60: -709477345
+      Zombie_21: -52260541
+      Zombie_87: 1049270707
+      Zombie_81: 2110064604
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
