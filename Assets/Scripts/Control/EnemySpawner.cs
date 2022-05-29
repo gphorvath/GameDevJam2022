@@ -11,6 +11,8 @@ namespace RPG.Control
 
         [SerializeField] private float spawnInterval = 3.5f;
 
+        [SerializeField] private float spawnRadius = 0f;
+
         // Start is called before the first frame update
         void Start()
         {
@@ -21,7 +23,7 @@ namespace RPG.Control
         {
             yield return new WaitForSeconds(interval);
 
-            GameObject newenemy = Instantiate(enemy, new Vector2(Random.Range(-5f,5), Random.Range(-5f, 5f)), Quaternion.identity);
+            GameObject newenemy = Instantiate(enemy, new Vector2(Random.Range(-spawnRadius,spawnRadius), Random.Range(-spawnRadius, spawnRadius)), Quaternion.identity);
             StartCoroutine(spawnEnemy(interval, enemy));
         }
     }

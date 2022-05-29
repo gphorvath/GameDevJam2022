@@ -41508,6 +41508,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enemyPrefab: {fileID: 1507955574594264855, guid: 906e9ae527c1e1a4fa792bc6e89757bd, type: 3}
   spawnInterval: 3.5
+  spawnRadius: 0
 --- !u!4 &1693535292
 Transform:
   m_ObjectHideFlags: 0
@@ -41974,9 +41975,9 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2125146058}
-  m_BodyType: 1
+  m_BodyType: 2
   m_Simulated: 1
-  m_UseFullKinematicContacts: 0
+  m_UseFullKinematicContacts: 1
   m_UseAutoMass: 0
   m_Mass: 1
   m_LinearDrag: 0
