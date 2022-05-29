@@ -7,7 +7,7 @@ Note: Tested on PC only!
 
 Written in C# using Unity. Not current intended for mobile play.
 
-[Click here to play!].(https://gphorvath.github.io/GameDevTVJam2022/)
+[Click here to play!](https://gphorvath.github.io/GameDevTVJam2022/)
 
 ## Objective  
 Run for yuor life!  
