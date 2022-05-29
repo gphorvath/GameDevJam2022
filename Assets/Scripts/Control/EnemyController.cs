@@ -8,7 +8,6 @@ namespace RPG.Control
     [RequireComponent(typeof(Rigidbody2D))]
     public class EnemyController : MonoBehaviour
     {
-        [SerializeField] private int damange = 5;
         [SerializeField] private float speed = 1.5f;
 
         [SerializeField] private EnemyData data;
