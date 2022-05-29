@@ -10,7 +10,7 @@ Written in C# using Unity. Not current intended for mobile play.
 [Click here to play!](https://gphorvath.github.io/GameDevTVJam2022/)
 
 ## Objective  
-Run for yuor life!  
+Run for your life!  
 
 ## Instructions  
 1. "W A S D" = move  
