@@ -2,10 +2,13 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-[CreateAssetMenu(fileName = "Data", menuName = "ScriptableObjects/Enemy", order = 1)]
-public class EnemyData : ScriptableObject
+namespace RPG.Control
 {
-    public int health;
-    public int damange;
-    public float speed;
+    [CreateAssetMenu(fileName = "Data", menuName = "ScriptableObjects/Enemy", order = 1)]
+    public class EnemyData : ScriptableObject
+    {
+        public int health;
+        public int damange;
+        public float speed;
+    }
 }
