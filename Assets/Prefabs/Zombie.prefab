@@ -61,8 +61,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: adcfcba6d278f7a4da84b2d2fcc95cc3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damange: 5
   speed: 1.5
+  chaseDistance: 7
+  wanderRadius: 5
   data: {fileID: 11400000, guid: 78b58c93d1ab7fa45a5ebccf97146d01, type: 2}
 --- !u!50 &3184054842604669707
 Rigidbody2D:
