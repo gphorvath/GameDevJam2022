@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using RPG.Stats;
 
 
 namespace RPG.Control
@@ -11,12 +12,14 @@ namespace RPG.Control
         [field: SerializeField] public float chaseDistance { get; private set; } = 7f;
         [field: SerializeField] public float wanderRadius { get; private set; } = 5f;
         [field: SerializeField] public float alertDistance { get; private set; } = 9f;
-
-        [SerializeField] private EnemyData data;
+        [field: SerializeField] public int damage { get; private set; } = 10;
+        [field: SerializeField] public float attackRange { get; private set; } = 2f;
+        [field: SerializeField] public float attackCooldown { get; private set; } = 1f;
 
         private Transform target;
         private Vector3 wanderTarget;
         private bool directlyAlerted = false;
+        private float timeSinceLastAttack = Mathf.Infinity;
 
 
         private enum State { Idle, Wander, Chase }
@@ -109,6 +112,13 @@ namespace RPG.Control
                 if (Vector3.Distance(target.position, transform.position) <= chaseDistance)
                 {
                     directlyAlerted = true;  // Set the flag when the enemy is close to the player
+                    timeSinceLastAttack += Time.deltaTime;
+
+                    if (Vector3.Distance(target.position, transform.position) <= attackRange && timeSinceLastAttack >= attackCooldown)
+                    {
+                        Attack();
+                        timeSinceLastAttack = 0;
+                    }
                 }
 
                 if (Vector3.Distance(target.position, transform.position) > chaseDistance)
@@ -120,6 +130,16 @@ namespace RPG.Control
                 AlertNearbyEnemies();
 
                 yield return null;
+            }
+        }
+
+        private void Attack()
+        {
+            Debug.Log("Attack");
+            Health playerHealth = target.GetComponent<Health>();
+            if (playerHealth != null)
+            {
+                playerHealth.TakeDamage(damage);
             }
         }
 
@@ -150,7 +170,6 @@ namespace RPG.Control
             return false;
         }
 
-        // Add this to visualize chase distance and wander radius
         private void OnDrawGizmosSelected()
         {
             // Draw chase distance
@@ -164,6 +183,10 @@ namespace RPG.Control
             // Draw alert distance
             Gizmos.color = Color.yellow;
             Gizmos.DrawWireSphere(transform.position, alertDistance);
+
+            // Draw attack range
+            Gizmos.color = Color.green;
+            Gizmos.DrawWireSphere(transform.position, attackRange);
         }
     }
 }
