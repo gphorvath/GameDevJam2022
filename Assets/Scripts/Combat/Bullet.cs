@@ -40,7 +40,6 @@ public class Bullet : MonoBehaviour
         // Check if the bullet hit an enemy
         if (other.gameObject.CompareTag("Enemy"))
         {
-            Debug.Log("Hit!");
             // Get the enemy's health component
             Health enemyHealth = other.gameObject.GetComponent<Health>();
 
@@ -49,6 +48,12 @@ public class Bullet : MonoBehaviour
             {
                 enemyHealth.TakeDamage(damage);
             }
+            // Return the bullet to the pool
+            bulletPool.ReturnObject(gameObject);
+        }
+
+        if (other.gameObject.CompareTag("Tree"))
+        {
             // Return the bullet to the pool
             bulletPool.ReturnObject(gameObject);
         }

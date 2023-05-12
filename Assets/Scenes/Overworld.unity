@@ -41619,7 +41619,7 @@ GameObject:
   - component: {fileID: 2039293870}
   m_Layer: 0
   m_Name: TreesBackground
-  m_TagString: Untagged
+  m_TagString: Tree
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -67880,7 +67880,7 @@ GameObject:
   - component: {fileID: 2125146062}
   m_Layer: 0
   m_Name: TreesForeground
-  m_TagString: Untagged
+  m_TagString: Tree
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -73669,7 +73669,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7782496306677995135, guid: b97c5cb5de3e03446b0277cc399b77a1, type: 3}
       propertyPath: m_RootOrder
-      value: 4
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 7782496306677995135, guid: b97c5cb5de3e03446b0277cc399b77a1, type: 3}
       propertyPath: m_LocalPosition.x
@@ -73848,7 +73848,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7782496306677995135, guid: b97c5cb5de3e03446b0277cc399b77a1, type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 7782496306677995135, guid: b97c5cb5de3e03446b0277cc399b77a1, type: 3}
       propertyPath: m_LocalPosition.x
