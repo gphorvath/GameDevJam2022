@@ -19,11 +19,14 @@ namespace RPG.Control
 
         private Vector2 movement;
         private Rigidbody2D _rb;
+        private Health _health;
 
         // Start is called before the first frame update
         void Start()
         {
             _rb = GetComponent<Rigidbody2D>();
+            _health = GetComponent<Health>();
+            _health.OnDeath += this.OnDeath;
         }
 
         // Update is called once per frame
@@ -63,6 +66,11 @@ namespace RPG.Control
 
             // Set the bullet's direction
             bullet.GetComponent<Bullet>().SetDirection(direction);
+        }
+
+        private void OnDeath()
+        {
+
         }
     }
 }
