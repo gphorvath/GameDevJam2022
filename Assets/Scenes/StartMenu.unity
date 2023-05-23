@@ -275,6 +275,14 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
       value: Overworld
       objectReference: {fileID: 0}
+    - target: {fileID: 2750418061778986115, guid: a5c0e14a90f826241bfc28db17d184eb, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 450
+      objectReference: {fileID: 0}
+    - target: {fileID: 2750418061987203069, guid: a5c0e14a90f826241bfc28db17d184eb, type: 3}
+      propertyPath: m_text
+      value: Enter the world in an unfamiliar way...
+      objectReference: {fileID: 0}
     - target: {fileID: 2750418062797237110, guid: a5c0e14a90f826241bfc28db17d184eb, type: 3}
       propertyPath: m_Pivot.x
       value: 0
