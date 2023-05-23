@@ -11,4 +11,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Overworld.unity
     guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/DeathScene.unity
+    guid: 1b412d40bb5bc084e86fcd7be9ba9bf3
+  - enabled: 1
+    path: Assets/Scenes/Underworld.unity
+    guid: 3c3a587a6b17f694193677f70d990c6a
   m_configObjects: {}
