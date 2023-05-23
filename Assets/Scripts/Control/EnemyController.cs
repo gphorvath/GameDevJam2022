@@ -17,6 +17,7 @@ namespace RPG.Control
         [field: SerializeField] public float attackCooldown { get; private set; } = 1f;
 
         private Transform target;
+        private Health targetHealth;
         private Vector3 wanderTarget;
         private bool directlyAlerted = false;
         private float timeSinceLastAttack = Mathf.Infinity;
@@ -27,14 +28,24 @@ namespace RPG.Control
 
         private void Start()
         {
-            target = GameObject.FindGameObjectWithTag("Player").transform;
-            if (target == null)
+
+            GameObject playerObject = GameObject.FindGameObjectWithTag("Player");
+            if (playerObject != null)
+            {
+                target = playerObject.transform;
+                targetHealth = playerObject.GetComponent<Health>();
+                if (targetHealth != null)
+                {
+                    targetHealth.OnDeath += HandleTargetDeath;
+                }
+
+                state = State.Idle;
+                StartCoroutine(FSM());
+            }
+            else
             {
                 Debug.LogError("Player object not found");
-                return;
             }
-            state = State.Idle;
-            StartCoroutine(FSM());
         }
 
 
@@ -63,10 +74,10 @@ namespace RPG.Control
             {
                 yield return new WaitForSeconds(1f);
 
-                if (Vector3.Distance(target.position, transform.position) < chaseDistance)
+                if (target != null && Vector3.Distance(target.position, transform.position) < chaseDistance)
                 {
                     state = State.Chase;
-                    directlyAlerted = true;  // Set the flag when the enemy starts chasing due to being close to the player
+                    directlyAlerted = true;
                 }
                 else if (IsChasingEnemyNearby())
                     state = State.Chase;
@@ -77,6 +88,7 @@ namespace RPG.Control
 
         private IEnumerator Wander()
         {
+
             float wanderTime = Random.Range(1f, 5f); // wander for a random duration between 1 and 5 seconds
             Vector3 wanderDirection = new Vector3(Random.Range(-1f, 1f), Random.Range(-1f, 1f), 0).normalized; // pick a random direction
 
@@ -96,7 +108,7 @@ namespace RPG.Control
                 Vector3 targetPosition = transform.position + wanderDirection * wanderRadius;
                 transform.position = Vector3.MoveTowards(transform.position, targetPosition, speed * Time.deltaTime);
 
-                if (Vector3.Distance(target.position, transform.position) < chaseDistance)
+                if (target != null && Vector3.Distance(target.position, transform.position) < chaseDistance)
                     state = State.Chase;
 
                 yield return null;
@@ -107,39 +119,54 @@ namespace RPG.Control
         {
             while (state == State.Chase)
             {
-                transform.position = Vector3.MoveTowards(transform.position, target.position, speed * Time.deltaTime);
-
-                if (Vector3.Distance(target.position, transform.position) <= chaseDistance)
+                if (target != null)
                 {
-                    directlyAlerted = true;  // Set the flag when the enemy is close to the player
-                    timeSinceLastAttack += Time.deltaTime;
+                    transform.position = Vector3.MoveTowards(transform.position, target.position, speed * Time.deltaTime);
 
-                    if (Vector3.Distance(target.position, transform.position) <= attackRange && timeSinceLastAttack >= attackCooldown)
+                    if (Vector3.Distance(target.position, transform.position) <= chaseDistance)
                     {
-                        Attack();
-                        timeSinceLastAttack = 0;
+                        directlyAlerted = true;
+                        timeSinceLastAttack += Time.deltaTime;
+
+                        if (Vector3.Distance(target.position, transform.position) <= attackRange && timeSinceLastAttack >= attackCooldown)
+                        {
+                            Attack();
+                            timeSinceLastAttack = 0;
+                        }
+                    }
+
+                    if (Vector3.Distance(target.position, transform.position) > chaseDistance)
+                    {
+                        state = State.Wander;
+                        directlyAlerted = false;  // Reset the flag when the enemy stops chasing
                     }
                 }
-
-                if (Vector3.Distance(target.position, transform.position) > chaseDistance)
-                {
-                    state = State.Wander;
-                    directlyAlerted = false;  // Reset the flag when the enemy stops chasing
-                }
-
                 AlertNearbyEnemies();
 
                 yield return null;
             }
         }
 
+        private void HandleTargetDeath()
+        {
+            if (targetHealth != null)
+            {
+                targetHealth.OnDeath -= HandleTargetDeath;
+            }
+
+            target = null;
+            targetHealth = null;
+        }
+
         private void Attack()
         {
             Debug.Log("Attack");
-            Health playerHealth = target.GetComponent<Health>();
-            if (playerHealth != null)
+            if (target != null)
             {
-                playerHealth.TakeDamage(damage);
+                if (targetHealth != null)
+                {
+                    targetHealth.TakeDamage(damage);
+                }
             }
         }
 
