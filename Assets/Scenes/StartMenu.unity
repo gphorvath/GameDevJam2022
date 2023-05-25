@@ -281,7 +281,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2750418061987203069, guid: a5c0e14a90f826241bfc28db17d184eb, type: 3}
       propertyPath: m_text
-      value: Enter the world in an unfamiliar way...
+      value: Enter the world...
       objectReference: {fileID: 0}
     - target: {fileID: 2750418062797237110, guid: a5c0e14a90f826241bfc28db17d184eb, type: 3}
       propertyPath: m_Pivot.x
