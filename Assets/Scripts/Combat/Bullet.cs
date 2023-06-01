@@ -11,8 +11,11 @@ namespace RPG.Combat
         [SerializeField] private int damage = 10;
         [SerializeField] private float speed = 10f;
         [SerializeField] private float lifeTime = 3f;
+        [SerializeField] private GameObject fireball;
         private Vector2 direction;
         private ObjectPool bulletPool;
+
+
 
         private void Awake()
         {
@@ -30,6 +33,13 @@ namespace RPG.Combat
         {
             // Move the bullet forward at a constant speed
             transform.Translate(direction * speed * Time.deltaTime);
+
+            // Rotate the sprite to face the direction of movement
+            if (direction != Vector2.zero)
+            {
+                float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
+                fireball.transform.rotation = Quaternion.AngleAxis(angle, Vector3.forward);
+            }
         }
 
         public void SetDirection(Vector2 newDirection)
