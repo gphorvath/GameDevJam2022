@@ -4,10 +4,10 @@ namespace RPG.Stats
 {
     public class Health : MonoBehaviour
     {
-        [SerializeField] private int maxHealth = 100;
-        [field: SerializeField] private int currentHealth;
+        [SerializeField] private float maxHealth = 100f;
+        [field: SerializeField] private float currentHealth;
 
-        public delegate void HealthChanged(int currentHealth);
+        public delegate void HealthChanged(float currentHealth);
         public event HealthChanged OnHealthChanged;
 
         public delegate void Death();
@@ -44,12 +44,12 @@ namespace RPG.Stats
             Destroy(gameObject);
         }
 
-        public int GetCurrentHealth()
+        public float GetCurrentHealth()
         {
             return currentHealth;
         }
 
-        public int GetMaxHealth()
+        public float GetMaxHealth()
         {
             return maxHealth;
         }
