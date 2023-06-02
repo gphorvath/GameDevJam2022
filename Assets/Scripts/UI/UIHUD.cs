@@ -6,29 +6,12 @@ using RPG.Stats;
 
 namespace RPG.UI
 {
-    public class UIManager : MonoBehaviour
+    public class UIHUD : MonoBehaviour
     {
 
         [SerializeField] private Scrollbar _healthBar;
 
         private Health _playerHealth;
-
-        public static UIManager instance;
-
-        void Awake()
-        {
-            // Implementing the singleton pattern
-            if (instance == null)
-            {
-                instance = this;
-                DontDestroyOnLoad(gameObject);
-            }
-            else
-            {
-                Destroy(gameObject);
-                return;
-            }
-        }
 
         // Start is called before the first frame update
         void Start()
