@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using RPG.Stats;
+using TMPro;
+using RPG.Core;
 
 namespace RPG.UI
 {
@@ -10,6 +12,7 @@ namespace RPG.UI
     {
 
         [SerializeField] private Scrollbar _healthBar;
+        [SerializeField] private TMP_Text _enemyCounter;
 
         private Health _playerHealth;
 
@@ -18,7 +21,7 @@ namespace RPG.UI
         {
             _playerHealth = GameObject.FindGameObjectWithTag("Player").GetComponent<Health>();
             _playerHealth.OnHealthChanged += UpdateHealthBar;
-            _healthBar.size = _playerHealth.GetMaxHealth() / _playerHealth.GetMaxHealth();
+            UpdateHealthBar(_playerHealth.GetMaxHealth());
         }
 
         // Update is called once per frame
@@ -27,9 +30,19 @@ namespace RPG.UI
 
         }
 
+        private void FixedUpdate() 
+        {
+            UpdateEnemyCount(GameManager.instance.enemiesAlive);
+        }
+
         void UpdateHealthBar(float currentHealth)
         {
             _healthBar.size = currentHealth / _playerHealth.GetMaxHealth();
+        }
+
+        void UpdateEnemyCount(int enemyCount)
+        {
+            _enemyCounter.text = enemyCount.ToString();
         }
     }
 }

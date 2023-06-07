@@ -27,7 +27,8 @@ namespace RPG.Control
         {
             while (maxSpawns == 0 || spawnCount < maxSpawns)
             {
-                yield return new WaitForSeconds(interval);
+                float noisedInterval = Random.Range(0.85f*interval, 1.15f*interval);
+                yield return new WaitForSeconds(noisedInterval);
 
                 Instantiate(enemyPrefab, location, Quaternion.identity);
                 spawnCount++;
