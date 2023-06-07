@@ -10,7 +10,7 @@ namespace RPG.Combat
     {
         [SerializeField] private int damage = 10;
         [SerializeField] private float speed = 10f;
-        [SerializeField] private float lifeTime = 3f;
+        [SerializeField] private float lifeTime = 1.1f;
         [SerializeField] private GameObject fireball;
         private Vector2 direction;
         private ObjectPool bulletPool;

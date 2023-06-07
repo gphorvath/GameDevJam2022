@@ -52,7 +52,9 @@
     },
     "cSpell.words": [
         "Behaviour",
+        "Cooldown",
         "Mathf",
-        "Rigidbody"
+        "Rigidbody",
+        "UIHUD"
     ]
 }

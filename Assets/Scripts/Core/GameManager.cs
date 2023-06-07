@@ -8,6 +8,8 @@ namespace RPG.Core
     {
         public static GameManager instance;
 
+        public int enemiesAlive {get; private set;} = 0;
+
         void Awake()
         {
             // Implementing the singleton pattern
@@ -23,6 +25,11 @@ namespace RPG.Core
             }
 
             SceneManager.sceneLoaded += OnSceneLoaded;
+        }
+
+        private void FixedUpdate() 
+        {
+            enemiesAlive = GameObject.FindGameObjectsWithTag("Enemy").Length;
         }
 
         public void LoadSceneByName(string sceneName)
