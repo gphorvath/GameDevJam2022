@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 8881696834186199216}
   m_Layer: 0
   m_Name: Zombie
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -45,10 +45,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1507955574594264855}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 23e4506cc05b089449cb00ea3aad37bb, type: 3}
+  m_Script: {fileID: 11500000, guid: 5fd42fff9a6a0044d8da1295c8ccb199, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  healthPoints: 100
+  maxHealth: 100
+  currentHealth: 0
 --- !u!114 &8303843776451715842
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -61,9 +62,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: adcfcba6d278f7a4da84b2d2fcc95cc3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damange: 5
-  speed: 1.5
-  data: {fileID: 11400000, guid: 78b58c93d1ab7fa45a5ebccf97146d01, type: 2}
+  <speed>k__BackingField: 1.5
+  <chaseDistance>k__BackingField: 7
+  <wanderRadius>k__BackingField: 5
+  <alertDistance>k__BackingField: 11
+  <damage>k__BackingField: 10
+  <attackRange>k__BackingField: 1.25
+  <attackCooldown>k__BackingField: 1
 --- !u!50 &3184054842604669707
 Rigidbody2D:
   serializedVersion: 4
