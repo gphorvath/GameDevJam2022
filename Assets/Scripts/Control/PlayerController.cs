@@ -34,6 +34,9 @@ namespace RPG.Control
         {
             movement.x = Input.GetAxisRaw("Horizontal");
             movement.y = Input.GetAxisRaw("Vertical");
+
+            movement.Normalize();
+
             if (Input.GetButtonDown("Fire1"))
             {
                 FireBullet();
