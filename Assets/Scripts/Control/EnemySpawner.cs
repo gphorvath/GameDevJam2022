@@ -9,11 +9,8 @@ namespace RPG.Control
         [SerializeField] private GameObject enemyPrefab;
 
 
-        [field: SerializeField] public float spawnInterval { get; private set; } = 3.5f;
-        [field: SerializeField] public int maxSpawns { get; private set; } = 0;
-
+        [SerializeField] private float spawnInterval = 3.5f;
         private Vector2 location;
-        private int spawnCount = 0;
 
 
         // Start is called before the first frame update
@@ -25,14 +22,10 @@ namespace RPG.Control
 
         private IEnumerator spawnEnemy(float interval, GameObject enemy)
         {
-            while (maxSpawns == 0 || spawnCount < maxSpawns)
-            {
-                float noisedInterval = Random.Range(0.85f*interval, 1.15f*interval);
-                yield return new WaitForSeconds(noisedInterval);
+            yield return new WaitForSeconds(interval);
 
-                Instantiate(enemyPrefab, location, Quaternion.identity);
-                spawnCount++;
-            }
+            GameObject newenemy = Instantiate(enemy, new Vector2(location.x, location.y), Quaternion.identity);
+            StartCoroutine(spawnEnemy(interval, enemy));
         }
     }
 }

@@ -46,8 +46,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemyPrefab: {fileID: 1507955574594264855, guid: 906e9ae527c1e1a4fa792bc6e89757bd, type: 3}
-  <spawnInterval>k__BackingField: 3.5
-  <maxSpawns>k__BackingField: 0
+  spawnInterval: 3.5
 --- !u!212 &1746166374861614841
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -88,7 +87,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 0
   m_Sprite: {fileID: 1088807430, guid: e99006bc52c692d4aa7dda585bdd9c81, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
